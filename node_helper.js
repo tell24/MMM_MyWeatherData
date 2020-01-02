@@ -3,7 +3,7 @@ var request = require('request');
 
 module.exports = NodeHelper.create({
   start: function () {
-    console.log('bitcoin helper started...');
+    console.log('weatherdata helper started...');
   },
 
   getTickers: function (url) {
